@@ -18,7 +18,7 @@ public class JacksonConfig {
         ObjectMapper objectMapper = builder.createXmlMapper(false).build();
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-//        dateFormat.setTimeZone(TimeZone.getTimeZone("GMT-3"));
+        dateFormat.setTimeZone(TimeZone.getTimeZone("GMT-3"));
         objectMapper.setDateFormat(dateFormat);
 
         objectMapper.disable(SerializationFeature.WRITE_DATE_KEYS_AS_TIMESTAMPS);
