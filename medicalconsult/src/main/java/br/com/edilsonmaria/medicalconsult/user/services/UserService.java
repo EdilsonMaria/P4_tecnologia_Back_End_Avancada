@@ -39,6 +39,7 @@ public class UserService {
         userExistente.setCpf(userAtualizado.getCpf());
         userExistente.setTelefone(userAtualizado.getTelefone());
         userExistente.setDataNascimento(userAtualizado.getDataNascimento());
+        userExistente.setPermissao(userAtualizado.getPermissao());
 
         return userRepository.save(userExistente);
     }

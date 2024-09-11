@@ -29,17 +29,20 @@ public class User {
 
     @Column(name = "DATA_NASCIMENTO")
     private Date dataNascimento;
-//    private Permissao permissao;
+
+    @Column(name = "PERMISSAO")
+    private Permissao permissao;
 
     public User() {
     }
 
-    public User(Long idUser, String nomeUser, String email, String cpf, String telefone, Date dataNascimento) {
+    public User(Long idUser, String nomeUser, String email, String cpf, String telefone, Date dataNascimento, Permissao permissao) {
         this.idUser = idUser;
         this.nomeUser = nomeUser;
         this.email = email;
         this.cpf = cpf;
         this.telefone = telefone;
         this.dataNascimento = dataNascimento;
+        this.permissao = permissao;
     }
 }
