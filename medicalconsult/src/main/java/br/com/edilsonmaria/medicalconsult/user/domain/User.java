@@ -53,4 +53,5 @@ public class User {
         this.permissao = permissao;
         this.consultas = consultas;
     }
+
 }
