@@ -2,14 +2,11 @@ package br.com.edilsonmaria.medicalconsult.consulta.services;
 
 import br.com.edilsonmaria.medicalconsult.consulta.domain.Consulta;
 import br.com.edilsonmaria.medicalconsult.consulta.repository.ConsultaRepository;
-import br.com.edilsonmaria.medicalconsult.exception.ExceptionDataIntegrityViolation;
-import org.hibernate.ObjectNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.dao.DataIntegrityViolationException;
 
 import java.util.ArrayList;
 import java.util.List;

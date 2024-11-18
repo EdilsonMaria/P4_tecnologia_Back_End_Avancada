@@ -34,6 +34,7 @@ public class User {
     private String dataNascimento;
 
     @Column(name = "PERMISSAO")
+    @Enumerated(EnumType.STRING)
     private Permissao permissao;
 
     @JsonIgnore
