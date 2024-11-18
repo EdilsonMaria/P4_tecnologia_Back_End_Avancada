@@ -16,18 +16,34 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfig {
 
+    private static final String[] PUBLIC_MATCHERS_GET = {
+            "/users/**",
+            "/consultas/**"
+    };
+
+    private static final String[] PUBLIC_MATCHERS_POST = {
+            "/users/**",
+            "/consultas/**"
+    };
+
+    private static final String[] PUBLIC_MATCHERS_PUT = {
+            "/users/**",
+            "/consultas/**"
+    };
+
+    private static final String[] PUBLIC_MATCHERS_DELETE = {
+            "/users/**",
+            "/consultas/**"
+    };
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
         return http.csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers(HttpMethod.POST, "/usuario")
-                        .hasAnyRole("ADMIN", "SECRETARIO")
-                        .requestMatchers(HttpMethod.PUT, "/usuario/**")
-                        .hasAnyRole("ADMIN", "SECRETARIO")
-                        .requestMatchers(HttpMethod.DELETE, "/usuario/**")
-                        .hasRole("ADMIN")
-                        .requestMatchers(HttpMethod.GET, "/usuarios/**")
-                        .permitAll()
+                        .requestMatchers(HttpMethod.POST, PUBLIC_MATCHERS_POST).hasAnyRole("ADMIN", "SECRETARIO")
+                        .requestMatchers(HttpMethod.PUT, PUBLIC_MATCHERS_PUT).hasAnyRole("ADMIN", "SECRETARIO")
+                        .requestMatchers(HttpMethod.DELETE, PUBLIC_MATCHERS_DELETE).hasRole("ADMIN")
+                        .requestMatchers(HttpMethod.GET, PUBLIC_MATCHERS_GET).permitAll()
                         .anyRequest().authenticated()
                 )
                 .httpBasic(Customizer.withDefaults())

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c577243-8ac6-4fa4-b53d-6a2deffba6bb" name="Changes" comment="Inserção do Spring Security">
+      <change beforePath="$PROJECT_DIR$/medicalconsult/src/main/java/br/com/edilsonmaria/medicalconsult/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicalconsult/src/main/java/br/com/edilsonmaria/medicalconsult/config/SecurityConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="OpenAPI" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lw0eVbsEkhsbxy2FxBJKAfszne" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MedicalconsultApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsultaServiceTest.cadastrarConsulta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsultaServiceTest.deletarConsulta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsultaServiceTest.listarConsultas.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.atualizarUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.buscarUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.cadastrarUser.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.UserServiceTest.deletarUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.listarUser.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.medicalconsult [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;OpenAPI/Swagger Code Generator.test.yml.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MedicalconsultApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MedicalconsultApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Usuário/Desktop/MedicalConsult&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Usuário\Desktop\Faculdade Sistema\P4\1 - Tecnologia para Beck-End Avançado\WorkSpace_BackEnd\medicalconsult\src\main\resources" />
+      <recent name="D:\Usuário\Desktop\Faculdade Sistema\P4\1 - Tecnologia para Beck-End Avançado\WorkSpace_BackEnd\medicalconsult\src\main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.edilsonmaria.medicalconsult.consulta.services" />
+      <recent name="br.com.edilsonmaria.medicalconsult.user.services" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MedicalconsultApplication">
+    <configuration name="ConsultaServiceTest.cadastrarConsulta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicalconsult" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.edilsonmaria.medicalconsult.consulta.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.edilsonmaria.medicalconsult.consulta.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.edilsonmaria.medicalconsult.consulta.services.ConsultaServiceTest" />
+      <option name="METHOD_NAME" value="cadastrarConsulta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaServiceTest.deletarConsulta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicalconsult" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.edilsonmaria.medicalconsult.consulta.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.edilsonmaria.medicalconsult.consulta.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.edilsonmaria.medicalconsult.consulta.services.ConsultaServiceTest" />
+      <option name="METHOD_NAME" value="deletarConsulta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaServiceTest.listarConsultas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicalconsult" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.edilsonmaria.medicalconsult.consulta.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.edilsonmaria.medicalconsult.consulta.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.edilsonmaria.medicalconsult.consulta.services.ConsultaServiceTest" />
+      <option name="METHOD_NAME" value="listarConsultas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.atualizarUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicalconsult" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.edilsonmaria.medicalconsult.user.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.edilsonmaria.medicalconsult.user.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.edilsonmaria.medicalconsult.user.services.UserServiceTest" />
+      <option name="METHOD_NAME" value="atualizarUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.deletarUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medicalconsult" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.edilsonmaria.medicalconsult.user.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.edilsonmaria.medicalconsult.user.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.edilsonmaria.medicalconsult.user.services.UserServiceTest" />
+      <option name="METHOD_NAME" value="deletarUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedicalconsultApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="medicalconsult" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.edilsonmaria.medicalconsult.MedicalconsultApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.yml" type="SwaggerCodegen" editBeforeRun="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="generateToPath" value="D:\Usuário\Desktop\Faculdade Sistema\P4\1 - Tecnologia para Beck-End Avançado\WorkSpace_BackEnd\medicalconsult\src\main\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
+      <option name="jdkPath" value="C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\jbr\bin\java.exe" />
+      <option name="language" value="java" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="specificationPath" value="D:\Usuário\Desktop\Faculdade Sistema\P4\1 - Tecnologia para Beck-End Avançado\WorkSpace_BackEnd\medicalconsult\src\main\resources\test.yml" />
+      <option name="workingDirectory" value="D:\Usuário\Desktop\Faculdade Sistema\P4\1 - Tecnologia para Beck-End Avançado\WorkSpace_BackEnd\medicalconsult\src\main\resources" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConsultaServiceTest.deletarConsulta" />
+        <item itemvalue="JUnit.UserServiceTest.deletarUser" />
+        <item itemvalue="JUnit.ConsultaServiceTest.listarConsultas" />
+        <item itemvalue="JUnit.ConsultaServiceTest.cadastrarConsulta" />
+        <item itemvalue="JUnit.UserServiceTest.atualizarUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c577243-8ac6-4fa4-b53d-6a2deffba6bb" name="Changes" comment="" />
+      <created>1726075932087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726075932087</updated>
+      <workItem from="1726075933944" duration="218000" />
+      <workItem from="1726076180072" duration="1142000" />
+      <workItem from="1726077351477" duration="319000" />
+      <workItem from="1726526525371" duration="6494000" />
+      <workItem from="1726770060665" duration="9000" />
+      <workItem from="1727129932523" duration="6856000" />
+      <workItem from="1727734679045" duration="2862000" />
+      <workItem from="1728063854329" duration="3000" />
+      <workItem from="1728338569401" duration="4307000" />
+      <workItem from="1728343089091" duration="313000" />
+      <workItem from="1728343458559" duration="1345000" />
+      <workItem from="1728344833076" duration="414000" />
+      <workItem from="1728346172880" duration="482000" />
+      <workItem from="1728357039265" duration="638000" />
+      <workItem from="1728597878190" duration="1254000" />
+      <workItem from="1728654695740" duration="654000" />
+      <workItem from="1728655391220" duration="1619000" />
+      <workItem from="1728943266187" duration="1039000" />
+      <workItem from="1729550835458" duration="3791000" />
+      <workItem from="1729882703476" duration="6515000" />
+      <workItem from="1731433693938" duration="6851000" />
+      <workItem from="1731963761898" duration="1127000" />
+      <workItem from="1731968111969" duration="2673000" />
+    </task>
+    <task id="LOCAL-00001" summary="Inserção do Swagger">
+      <option name="closed" value="true" />
+      <created>1728343941902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728343941902</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Inserção dos testes unitarios de ServiceUser e ServiceConsulta">
+      <option name="closed" value="true" />
+      <created>1729888460764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729888460764</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Inserção do Spring Security">
+      <option name="closed" value="true" />
+      <created>1731968704724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731968704724</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inserção do Swagger" />
+    <MESSAGE value="Inserção dos testes unitarios de ServiceUser e ServiceConsulta" />
+    <MESSAGE value="Inserção do Spring Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserção do Spring Security" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
