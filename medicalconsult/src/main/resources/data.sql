@@ -1,7 +1,7 @@
 INSERT INTO USERS(USER_NOME, EMAIL, CPF, TELEFONE, DATA_NASCIMENTO, PERMISSAO)
-VALUES ('Fulano', 'fulano@email.com','12345678910', '83123456789', '2000-09-07', 'ADMIN'),
-       ('Beltrano', 'beltrano@email.com','12345678910', '83123456789', '2000-09-07', 'SECRETARIO'),
+VALUES ('Edilson', 'edilson@email.com','12345678910', '83123456789', '1997-02-09', 'ADMIN'),
+       ('Junior', 'junior@email.com','12345678910', '83123456789', '1997-02-09', 'SECRETARIO'),
        ('Sicrano', 'sicrano@email.com','12345678910', '83123456789', '2000-09-07', 'PACIENTE');
 
 INSERT INTO CONSULTAS(DATA_CONSULTA, PROFISSIONAL, ESPECIALIDADE, ID_USER)
-VALUES ('2024-10-28', 'Dr.João', 'Cardiologia', 1);
+VALUES ('2024-10-28', 'Dr.José', 'Nutricionista', 1);

@@ -41,16 +41,23 @@ public class SecurityConfig {
             "/consultas/**"
     };
 
+    private static final String[] PUBLIC_MATCHERS = {
+            "/h2-console/**",
+            "/swagger-ui/**",
+            "/v3/api-docs/**"
+    };
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
         return http.csrf(csrf -> csrf.disable())
+                .headers(h -> h.frameOptions().disable())
                 .cors(Customizer.withDefaults())
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.POST, PUBLIC_MATCHERS_POST).hasAnyRole("ADMIN", "SECRETARIO")
                         .requestMatchers(HttpMethod.PUT, PUBLIC_MATCHERS_PUT).hasAnyRole("ADMIN", "SECRETARIO")
                         .requestMatchers(HttpMethod.DELETE, PUBLIC_MATCHERS_DELETE).hasRole("ADMIN")
                         .requestMatchers(HttpMethod.GET, PUBLIC_MATCHERS_GET).permitAll()
-                        .anyRequest().authenticated()
+                        .requestMatchers(HttpMethod.GET, PUBLIC_MATCHERS).permitAll().anyRequest().authenticated()
                 )
                 .httpBasic(Customizer.withDefaults())
                 .build();
@@ -61,9 +68,9 @@ public class SecurityConfig {
         PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
 
         auth.inMemoryAuthentication()
-                .withUser("Fulano").password(passwordEncoder.encode("123456")).roles("ADMIN")
+                .withUser("Edilson").password(passwordEncoder.encode("123456")).roles("ADMIN")
                 .and()
-                .withUser("Beltrano").password(passwordEncoder.encode("123456")).roles("SECRETARIO")
+                .withUser("Junior").password(passwordEncoder.encode("123456")).roles("SECRETARIO")
                 .and()
                 .withUser("Sicrano").password(passwordEncoder.encode("123456")).roles("PACIENTE");
     }
